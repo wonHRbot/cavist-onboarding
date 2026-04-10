@@ -1,45 +1,68 @@
 {
-  "ceo": { "nickname": "{{CEO_NAME}}", "role": "대표", "slack_id": "UXXXXXXXXXX" },
-  "team_leads": {
-    "개발팀": {
-      "leader": { "nickname": "DevLead", "role": "CTO", "slack_id": "UXXXXXXXXXX" },
-      "cells": {
-        "BE셀": { "nickname": "BELead", "role": "셀 리드", "slack_id": "UXXXXXXXXXX" },
-        "FE셀": { "nickname": "FELead", "role": "셀 리드", "slack_id": "UXXXXXXXXXX" }
-      }
+  "company": {
+    "name": "주식회사 캐비스트",
+    "name_en": "CAVIST",
+    "domain": "cavist-official.com"
+  },
+  "teams": {
+        "business": {
+      "name": "사업본부",
+      "leads": [
+        {
+          "name": "정시욱",
+          "role": "전무",
+          "slack_id": "U_BUSINESS_LEAD"
+        }
+      ]
     },
-    "제품팀": {
-      "leader": { "nickname": "{{CPO_NAME}}", "role": "CPO", "slack_id": "UXXXXXXXXXX" },
-      "cells": {
-        "PM": { "members": ["PM1", "PM2"], "description": "제품 기획" },
-        "PD": { "members": ["PD1", "PD2"], "description": "제품 디자인" },
-        "CX셀": { "nickname": "CXLead", "role": "셀 리드", "slack_id": "UXXXXXXXXXX", "members": ["CX1", "CX2"], "description": "고객 경험" }
-      }
+    "product": {
+      "name": "상품기획팀",
+      "leads": [
+        {
+          "name": "오예나",
+          "role": "부장",
+          "slack_id": "U_PRODUCT_LEAD"
+        }
+      ]
     },
-    "Growth팀": {
-      "leader": { "nickname": "{{CBO_NAME}}", "role": "CBO", "slack_id": "UXXXXXXXXXX" },
-      "cells": {
-        "Sales셀": { "nickname": "SalesLead", "role": "셀 리드", "slack_id": "UXXXXXXXXXX", "description": "영업" }
-      }
+    "marketing": {
+      "name": "마케팅팀",
+      "leads": [
+        {
+          "name": "안보라",
+          "role": "차장",
+          "slack_id": "U_MARKETING_LEAD"
+        }
+      ]
     },
-    "Operations팀": {
-      "leader": { "nickname": "AdminLead", "role": "실장", "slack_id": "UXXXXXXXXXX" },
-      "cells": {
-        "People셀": { "nickname": "{{HR_LEAD}}", "role": "셀 리드", "slack_id": "{{HR_LEAD_SLACK_ID}}", "description": "채용, 평가보상, 조직문화" }
-      }
+    "design": {
+      "name": "디자인팀",
+      "leads": [
+        {
+          "name": "윤선희",
+          "role": "과장",
+          "slack_id": "U_DESIGN_LEAD"
+        }
+      ]
+    },
+    "hr": {
+      "name": "인사팀",
+      "leads": [
+        {
+          "name": "송원석",
+          "role": "대리",
+          "slack_id": "U_HR_LEAD"
+        }
+      ]
     }
   },
-  "cell_to_team": {
-    "Sales셀": "Growth팀",
-    "BE셀": "개발팀",
-    "FE셀": "개발팀",
-    "PM": "제품팀",
-    "PD": "제품팀",
-    "CX셀": "제품팀",
-    "People셀": "Operations팀"
+  "hr_lead": {
+    "name": "송원석",
+    "role": "HR 담당자",
+    "slack_id": "U_SONGWONSEOK"
   },
   "step_domain_owners": {
-    "step2_product": { "team": "제품팀", "contact": "{{CPO_NAME}}", "slack_id": "UXXXXXXXXXX" },
-    "step3_biz": { "team": "Growth팀", "contact": "{{CBO_NAME}}", "slack_id": "UXXXXXXXXXX" }
+    "step2_product": "오예나",
+    "step3_biz": "정시욱"
   }
 }
