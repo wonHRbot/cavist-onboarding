@@ -1,10 +1,10 @@
 {
-  "onboarding_parent": "YOUR_NOTION_PAGE_ID_HERE",
-  "step1_general": "YOUR_NOTION_PAGE_ID_HERE",
-  "step2_product": "YOUR_NOTION_PAGE_ID_HERE",
-  "step3_biz": "YOUR_NOTION_PAGE_ID_HERE",
-  "step6_live_audit": "YOUR_NOTION_PAGE_ID_HERE",
-  "onboarding_db": "YOUR_NOTION_DB_ID_HERE",
-  "general_home": "YOUR_NOTION_PAGE_ID_HERE",
-  "culture_deck": "YOUR_NOTION_PAGE_ID_HERE"
+  "onboarding_parent": "2edeb846f39b80a299ebfe7e4472f2bc",
+  "step1_general": "2edeb846f39b80a299ebfe7e4472f2bc",
+  "step2_product": "2edeb846f39b80a299ebfe7e4472f2bc",
+  "step3_biz": "2edeb846f39b80a299ebfe7e4472f2bc",
+  "step6_live_audit": "2edeb846f39b80a299ebfe7e4472f2bc",
+  "onboarding_db": "2edeb846f39b80a299ebfe7e4472f2bc",
+  "general_home": "2edeb846f39b80a299ebfe7e4472f2bc",
+  "culture_deck": "2edeb846f39b80a299ebfe7e4472f2bc"
 }
