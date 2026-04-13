@@ -5,7 +5,7 @@
     "domain": "cavist-official.com"
   },
   "teams": {
-        "business": {
+    "business": {
       "name": "사업본부",
       "leads": [
         {
@@ -33,6 +33,13 @@
           "role": "차장",
           "slack_id": "U_MARKETING_LEAD"
         }
+      ],
+      "members": [
+        {
+          "name": "이우진",
+          "role": "과장",
+          "slack_id": "U_MARKETING_MEMBER1"
+        }
       ]
     },
     "design": {
@@ -42,6 +49,13 @@
           "name": "윤선희",
           "role": "과장",
           "slack_id": "U_DESIGN_LEAD"
+        }
+      ],
+      "members": [
+        {
+          "name": "남진서",
+          "role": "사원",
+          "slack_id": "U_DESIGN_MEMBER1"
         }
       ]
     },
